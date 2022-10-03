@@ -13,6 +13,7 @@ body {
   color: transparent;
   -webkit-background-clip: text;
   animation: animate 10s infinite linear;
+  top: 50%;
 }
 @keyframes animate {
   from {
