@@ -12,7 +12,7 @@ body {
     font-size: 150px;
   color: transparent;
   -webkit-background-clip: text;
-  animation: animate 10s infinite linear;
+  animation: animate 10s infinite ease-in-aut;
   top: 50%;
 }
 @keyframes animate {
