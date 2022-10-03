@@ -8,4 +8,17 @@ body {
 }
 .dd {
   margin-top: 250x;
-  background: url(https://s0.rbk.ru/v6_top_pics/media/img/0/28/755783410765280.jpg)
+  background: url(https://s0.rbk.ru/v6_top_pics/media/img/0/28/755783410765280.jpg);
+    font-size: 150px;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s infinite linear;
+}
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
