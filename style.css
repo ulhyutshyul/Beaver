@@ -15,11 +15,3 @@ body {
   animation: animate 10s infinite ease-in-aut;
   top: 50%;
 }
-@keyframes animate {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 100% 100%;
-  }
-}
